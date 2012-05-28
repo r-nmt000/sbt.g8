@@ -1,8 +1,8 @@
-package $package$
+package $package$.name
 
 import org.specs2.mutable._
 
-object ExampleAppSpec extends Specification {
+object $name;format="Camel"$AppSpec extends Specification {
   "sample" should {
     "sample" in {
       "foo" must_== "foo"
