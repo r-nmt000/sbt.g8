@@ -1,4 +1,4 @@
-package $package$.name
+package $package$.$name$
 
 import org.specs2.mutable._
 
