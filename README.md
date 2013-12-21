@@ -1,6 +1,1 @@
-
-A [giter8] template for [Scala] projects using [sbt].
-ver. using github and travis-ci
-[giter8]: https://github.com/n8han/giter8
-[Scala]: http://www.scala-lang.org/
-[sbt]: http://github.com/harrah/xsbt/
+A template for sbt using giter8
