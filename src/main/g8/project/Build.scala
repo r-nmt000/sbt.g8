@@ -1,5 +1,6 @@
 import sbt._
 import sbt.Keys._
+import AssemblyKeys._
 
 object ProjectBuild extends Build {
 
