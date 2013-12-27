@@ -1,6 +1,5 @@
 import sbt._
 import sbt.Keys._
-import AssemblyKeys._
 
 object ProjectBuild extends Build {
 
@@ -14,11 +13,11 @@ object ProjectBuild extends Build {
       scalaVersion := "$scala_version$",
       libraryDependencies ++= Seq(
         // test
-        "org.specs2" %% "specs2" % "1.9" % "test",
+        "org.specs2" %% "specs2" % "2.3.6" % "test",
             
         //log
-        "org.clapper" %% "grizzled-slf4j" % "0.6.8",
-        "ch.qos.logback" % "logback-classic" % "1.0.1"
+        "org.clapper" %% "grizzled-slf4j" % latest.integration
+        "ch.qos.logback" % "logback-classic" % latest.integration
       )
       // add other settings here
     )
