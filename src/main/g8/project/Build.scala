@@ -16,8 +16,8 @@ object ProjectBuild extends Build {
         "org.specs2" %% "specs2" % "2.3.6" % "test",
             
         //log
-        "org.clapper" %% "grizzled-slf4j" % latest.integration,
-        "ch.qos.logback" % "logback-classic" % latest.integration
+        "org.clapper" %% "grizzled-slf4j" % "latest.integration",
+        "ch.qos.logback" % "logback-classic" % "latest.integration"
       )
       // add other settings here
     )
